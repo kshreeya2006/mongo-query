@@ -1,5 +1,5 @@
 //create collection
-use products
+db.createCollection("products")
 
 //insert docs
 db.products.insertMany([
@@ -21,4 +21,4 @@ db.products.insertMany([
     imgUrl:"https://picsum.photos/id/7/367/267",
     price: 45
   }  
-]);
+])

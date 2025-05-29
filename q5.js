@@ -1,5 +1,9 @@
+//Update one document with email: "john@gmail.com" by setting age to 23.
 db.employees.updateOne({ email: "john@gmail.com" }, { $set: { age: 23 } });
+
+//Update all documents to add or overwrite the age field with value 23.
 db.employees.updateMany({}, { $set: { age: 23 } });
+
 db.employees.updateMany({}, { $set: { points: 0 } });
 db.employees.updateMany({}, { $inc: { points: 1 } }); //try -1
 db.employees.updateMany({}, { $rename: { points: "score" } });

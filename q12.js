@@ -32,7 +32,7 @@ db.employees.aggregate([
   },
 ]);
 
-//Find Mike's record and show her city
+//Find Mike's record and show his city
 db.employees.aggregate([
   {
     $lookup: {

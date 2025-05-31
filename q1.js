@@ -24,3 +24,10 @@
     _id: ObjectId('68386a889f7afd6bab6c4bd4'),
     name: 'Chastity J',
     email: 'chastity@gmail.com'
+
+
+//MongoDB Atlas
+//kshreeya2006
+//942BmvJdjp1l1OOY
+
+//mongodb+srv://kshreeya2006:942BmvJdjp1l1OOY@cluster0.d874fm8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

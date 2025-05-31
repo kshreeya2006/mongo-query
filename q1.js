@@ -26,8 +26,3 @@
     email: 'chastity@gmail.com'
 
 
-//MongoDB Atlas
-//kshreeya2006
-//942BmvJdjp1l1OOY
-
-//mongodb+srv://kshreeya2006:942BmvJdjp1l1OOY@cluster0.d874fm8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

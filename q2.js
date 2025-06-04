@@ -31,3 +31,21 @@ db.employees.insertMany([
 
 //find a collection
 db.employees.find();
+
+db.users.insertMany([
+  {
+    name: "Mike",
+    email: "mike@gmail.com",
+    password: "1234",
+  },
+  {
+    name: "Cathy ",
+    email: "cathy@gmail.com",
+    password: "1234",
+  },
+  {
+    name: "John",
+    email: "john@gmail.com",
+    password: "1234",
+  },
+]);

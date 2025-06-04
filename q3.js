@@ -22,3 +22,18 @@ db.products.insertMany([
     price: 45
   }  
 ])
+
+db.products.insertMany([
+  {
+    name: "Product1",
+    price: 45
+  },
+  {
+    name: "Product2",
+    price: 50
+  },
+  {
+    name: "Product3",
+    price: 60
+  }  
+])

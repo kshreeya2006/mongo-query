@@ -12,14 +12,14 @@ db.createUser({
 // add following lines:
 security:
     authorization: enabled
-
+//To remove the security then comment the above 2 lines in mongod.cfg file and restart MongoDB
 //search bar>services> mongoDB> right click> then restart the mongodb server
 
 //open mongosh and type show dbs
 
 // mongosh --username admin --authenticationDatabase admin
 
-/////creating a new user for the databasse gcet:
+/////creating a new user for the database gcet:
 
 use gcet 
 
